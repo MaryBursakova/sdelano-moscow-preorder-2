@@ -140,8 +140,8 @@ function createOrder(){
       <div style="font-size:22px;font-weight:900">${format(order.total)}</div>
       <div class="payment-box">
         <p class="payment-title">Переходим по QR для оплаты, нужно внести сумму по своему заказу:</p>
-         <img class="payment-qr" src="assets/payment-qr.jpg" alt="QR для оплаты">
-       <div class="small">Инструкция: делаем фото экрана с кодом, заходим в свой интернет банк, выбираем оплату по QR коду и фото из галереи)</p>
+        <img class="payment-qr" src="assets/payment-qr.jpg" alt="QR для оплаты">
+       <p class="payment-hint">Инструкция: делаем фото экрана с кодом, заходим в свой интернет банк, выбираем оплату по QR коду и фото из галереи)</p>
        <p class="payment-hint">Для получения заказа покажите банковский чек бариста и номер заказа.</p>
       </div>
     </div>`;
