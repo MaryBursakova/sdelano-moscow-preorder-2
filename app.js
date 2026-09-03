@@ -139,9 +139,9 @@ function createOrder(){
       <div class="order-number">${order.number}</div>
       <div style="font-size:22px;font-weight:900">${format(order.total)}</div>
       <div class="payment-box">
-        <p class="payment-title">Переходи по QR для оплаты, только внеси сумму по своему заказу</p>
+        <p class="payment-title">Переходим по QR для оплаты, нужно внести сумму по своему заказу (инструкция: делаем фото экрана с кодом, заходим в свой интернет банк, выбираем оплату по QR коду и фото из галереи)</p>
         <img class="payment-qr" src="assets/payment-qr.jpg" alt="QR для оплаты">
-        <p class="payment-hint">После оплаты покажите банковский чек бариста при получении.</p>
+        <p class="payment-hint">Для получения заказа покажите банковский чек бариста и номер заказа.</p>
       </div>
     </div>`;
   document.getElementById("closeSheet").onclick=()=>overlay.classList.remove("open");
